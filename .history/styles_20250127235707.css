@@ -590,17 +590,26 @@ h2 {
   text-decoration: none;
   line-height: 120%;
 }
-
 .hero-title-plain-text{
 z-index: 1;
 position: relative;
 }
-.section{
-  margin: 80px auto;
+
+.hero-title-dynamic-wrapper .hero-title-text-wrapper{
+overflow: visible;
+text-align: inherit;
+display: inline-block;
+position: relative;
 }
 
-.tag-line{
-  font-size: 20px;
+.twbb-headline--style-highlight svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  overflow: visible;
 }
-
-.smart-title, .custom-content-section h1 {color: #ffffff}

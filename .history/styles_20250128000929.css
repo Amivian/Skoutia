@@ -595,12 +595,10 @@ h2 {
 z-index: 1;
 position: relative;
 }
-.section{
-  margin: 80px auto;
-}
+
 
 .tag-line{
   font-size: 20px;
 }
 
-.smart-title, .custom-content-section h1 {color: #ffffff}
+.smart-title{color: #ffffff}

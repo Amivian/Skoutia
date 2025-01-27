@@ -587,20 +587,8 @@ h2 {
   font-weight: bold;
   text-transform: none;
   font-style: normal;
-  text-decoration: none;
-  line-height: 120%;
+  text-decoration: var(--e-global-typography-primary-text-decoration);
+  line-height: var(--e-global-typography-primary-line-height);
+  letter-spacing: var(--e-global-typography-primary-letter-spacing);
+  word-spacing: var(--e-global-typography-primary-word-spacing);
 }
-
-.hero-title-plain-text{
-z-index: 1;
-position: relative;
-}
-.section{
-  margin: 80px auto;
-}
-
-.tag-line{
-  font-size: 20px;
-}
-
-.smart-title, .custom-content-section h1 {color: #ffffff}

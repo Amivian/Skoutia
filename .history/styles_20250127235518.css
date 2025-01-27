@@ -590,17 +590,14 @@ h2 {
   text-decoration: none;
   line-height: 120%;
 }
-
 .hero-title-plain-text{
 z-index: 1;
 position: relative;
 }
-.section{
-  margin: 80px auto;
-}
 
-.tag-line{
-  font-size: 20px;
+.hero-title-dynamic-wrapper .hero-title-text-wrapper{
+overflow: visible;
+text-align: inherit;
+display: inline-block;
+position: relative;
 }
-
-.smart-title, .custom-content-section h1 {color: #ffffff}

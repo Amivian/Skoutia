@@ -22,7 +22,7 @@ color: var(--text-color);
 
 
 .btn:hover {
-  
+  background-color: var(--highlight-color) !important;
   transform: translateY(-2px);
   color: #fff;
 }
@@ -39,9 +39,8 @@ header {
       text-decoration: none;
       font-weight: 400;
       font-size: 16px;
-      padding: 13px 18px;
+      padding 
     }
-
     header a:hover {
       color: var(--highlight-color);
     }
@@ -67,12 +66,13 @@ header {
       font-weight: bold;
     }
     .hero-subtitle {
-      font-size: 14px;
+      font-size: --subheading-font-size;
+      font-weight: bold;
       background: #0E1D66;
       color: white;
       display: inline-block;
       padding: 5px 15px;
-      border-radius: 4px;
+      border-radius: 20px;
       font-style: italic;
       margin-bottom: 15px;
     }
@@ -551,56 +551,6 @@ h2 {
   }
 }
 
-.nav-signup{
-  background: linear-gradient(120deg, #03142E 40%, #0E1D66 100%);
-  font-family:inherit;
-  font-size:16px ;
-  font-weight:normal ;
-  text-transform:none ;
-  font-style: normal;
-  text-decoration: none;
-  line-height: 24px;
-  letter-spacing: 1px;
-  word-spacing: .5px;
-  fill: #ffffff;
-  color: #ffffff;
-  border-style: solid;
-  border-width: 1px 1px 1px 1px;
-  padding: 12px 24px 12px 24px;
-}
-.nav-signup:hover{
-  background: transparent;
-  border: 1px solid #0E1D66;
-  color: #0E1D66;
-}
 
-.hero-widget-container {
-  height: 100%;
-  transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform var(--e-transform-transition-duration, .4s);
-  box-sizing:border-box;
-}
 
-.hero-title {
-  text-align: left;
-  font-family: inherit;
-  font-size: 48px;
-  font-weight: bold;
-  text-transform: none;
-  font-style: normal;
-  text-decoration: none;
-  line-height: 120%;
-}
 
-.hero-title-plain-text{
-z-index: 1;
-position: relative;
-}
-.section{
-  margin: 80px auto;
-}
-
-.tag-line{
-  font-size: 20px;
-}
-
-.smart-title, .custom-content-section h1 {color: #ffffff}

@@ -68,11 +68,12 @@ header {
     }
     .hero-subtitle {
       font-size: 14px;
+      font-weight: bold;
       background: #0E1D66;
       color: white;
       display: inline-block;
       padding: 5px 15px;
-      border-radius: 4px;
+      border-radius: 20px;
       font-style: italic;
       margin-bottom: 15px;
     }
@@ -573,34 +574,3 @@ h2 {
   border: 1px solid #0E1D66;
   color: #0E1D66;
 }
-
-.hero-widget-container {
-  height: 100%;
-  transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform var(--e-transform-transition-duration, .4s);
-  box-sizing:border-box;
-}
-
-.hero-title {
-  text-align: left;
-  font-family: inherit;
-  font-size: 48px;
-  font-weight: bold;
-  text-transform: none;
-  font-style: normal;
-  text-decoration: none;
-  line-height: 120%;
-}
-
-.hero-title-plain-text{
-z-index: 1;
-position: relative;
-}
-.section{
-  margin: 80px auto;
-}
-
-.tag-line{
-  font-size: 20px;
-}
-
-.smart-title, .custom-content-section h1 {color: #ffffff}
